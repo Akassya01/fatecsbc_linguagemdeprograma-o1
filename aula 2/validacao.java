@@ -1,10 +1,8 @@
 import java.util.Scanner;
 
-/**
- * @param args
- */
-public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+public class validacao {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
     System.out.print("Digite o nome do produto: ");
     String nome_do_produto = scanner.nextLine();
 
@@ -21,4 +19,5 @@ public static void main(String[] args) {
     }
     
     scanner.close();
+    }
 }
